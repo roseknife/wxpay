@@ -1,0 +1,27 @@
+{
+  "name": "roseknife/wxpay",
+  "description": "微信支付开源集成",
+  "keywords": [
+    "weixin",
+    "wxpay"
+  ],
+  "license": "GPL-3.0+",
+  "homepage": "http://www.shendazhe.com/",
+  "type": "library",
+  "authors": [
+    {
+      "name": "RoseKnife Hua",
+      "email": "roseknife@qq.com",
+      "homepage": "http://www.shendazhe.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "RoseKnife\\WxPay\\": "src"
+    }
+  }
+}
